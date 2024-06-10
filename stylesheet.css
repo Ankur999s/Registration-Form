@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: auto;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105vb;
+    width: auto;
+}
+
+
+
+.registration-form{
+
+    background: rgb(244, 244, 244);
+    max-width: 700px;
+    padding: 25px;
+    margin: 70px auto;
+    box-shadow: 0 10px 20px #070ee7;
+    height: fit-content;
+}
+
+h1{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(15, 184, 227);
+    padding-bottom: 8px;
+    border-bottom: 1px solid silver;
+}
+
+.form-control{
+    display: inline-block;
+    width: auto;
+}
+
+.input-box{
+    background-size: cover;
+    border-radius: 10px;
+    background: skyblue;
+    color: black;
+    border: 5px solid white;
+    padding: 0px 2px;
+    margin: 2px 2px;
+    width: 200px
+    max-width: fit-content;
+}
+
+p{
+     width: 2500px;
+     display: inline-block;
+ }
+ 
+
+.form-group{
+    display: inline-block;
+    border-radius: 10px;
+    background: skyblue;
+    color: black;
+    border: 5px solid white;
+    padding: 5px 2px;
+    margin: 2px 2px;
+}
+
+label{
+   height: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+.form-add{
+    display: inline-block;
+    border-radius: 10px;
+    background: skyblue;
+    color: black;
+    border: 5px solid white;
+    padding: 5px 7px;
+    margin: 2px 2px;
+}
+
+.adhr{
+    max-width: 100px;
+}
+
+.adher{
+    width: 422px;
+}
+.form-photo{
+    display: inline-block;
+    border-radius: 10px;
+    background: skyblue;
+    color: black;
+    border: 5px solid white;
+    padding: 5px 7px;
+    margin: 2px 0px;
+}
+
+.form-btn{
+    
+    border: 0px solid white;
+    padding: 2px 7px;
+    margin: 6px 2px;
+}
+ 
+.form-gender{
+    border-radius: 10px;
+    background: skyblue;
+    color: black;
+    border: 5px solid white;
+    padding: 5px 2px;
+    margin: 2px 2px;
+    width: fit-content;
+    label{
+        width: 100px;
+    }
+    }
+
+
+
+    input[type=text]{
+        display: inline-block;
+        padding: 2px;
+        margin: 2px;
+        border: 1px solid grey;
+        border-radius: 4px;
+        max-width: 180px;
+        max-height: 100px;
+
+    }
+
+    input[type=date]{
+        display: inline-block;
+        padding: 2px;
+        margin: 2px;
+        border: 1px solid grey;
+        border-radius: 4px;
+
+    }
+
+    input[type=email]{
+        display: inline-block;
+        padding: 2px;
+        margin: 2px;
+        border: 1px solid grey;
+        border-radius: 4px;
+
+    }
+
+    input[type=tel]{
+        display: inline-block;
+        padding: 2px;
+        margin: 2px;
+        border: 1px solid grey;
+        border-radius: 4px;
+
+    }
+
+    textarea{
+        border-radius: 10px;
+        border: 1px solid grey;
+        background: white;
+        color: black;
+
+    }
+
+
